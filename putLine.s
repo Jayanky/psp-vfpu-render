@@ -91,7 +91,7 @@ putLine:
     j end
 
     steep:
-    # detranspose and load x and y values for loading
+    # detranspose and load x and y values for plotting
     l.s $f0, 0($t2)
     l.s $f2, 0($t0)
 
